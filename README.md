@@ -1,21 +1,26 @@
 # Exploring the Dynamics of Real Estate Prices: An Analytical Case Study
 
 ## Executive Summary
-With the data received, we looked for key insights into real estate investment using exploratory data analysis. Our findings reveal that real estate prices are influenced by age, proximity to transit, and availability of local amenities. Data analysis suggests varying degrees of correlations between these factors and property prices, with locations having minimal influence on the price. Stakeholders could benefit from our findings through a better understanding of market dynamics to guide investment and development decisions.
+With the data received, I looked for key insights into real estate investment using exploratory data analysis. Our findings reveal that real estate prices are influenced by age, proximity to transit, and availability of local amenities. Data analysis suggests varying degrees of correlations between these factors and property prices, with locations having minimal influence on the price. Stakeholders could benefit from our findings through a better understanding of market dynamics to guide investment and development decisions.
 
 ## Introduction and Background
-The real estate business is constantly growing. There is a growing interest in understanding what drives real estate prices. We analyzed a dataset containing information on house prices, age, proximity to MRT stations, and local amenities, which could provide some insights into these dynamics.
+- The real estate business is constantly growing.
+- There is a growing interest in understanding what drives real estate prices.
+- I analyzed a dataset containing information on house prices, age, proximity to MRT stations, and local amenities.
+- unveiling patterns and trends could provide some actionable insights into these dynamics of real estate to buyers/sellers.
 ![image](https://github.com/OnonaChukwu/Real-estate/assets/155753951/57314ef8-f8e1-4c0d-8fe2-f63e3081253f)
 
 
 ## Challenge and Motivation
-Challenges include diverse factors influencing property prices, making predictions complex. The motivation for this study is to provide clear, actionable insights for stakeholders in the real estate market and to enhance the decision-making process for non-experts exploring the market.
+- Challenges include diverse factors influencing property prices, making predictions complex.
+- The motivation for this study is to provide insights for stakeholders in the real estate market
+- And to enhance the decision-making process for non-experts exploring the market in general.
 
 ## Aim and Objectives
-**Aim**: 
-Elucidate the relationship between real estate prices and certain key factors.
+**Aim**
+- Elucidate the relationship between real estate prices and certain key factors.
 
-**Objectives**:
+**Objectives**
 - Identify how age influences house prices.
 - Identify how proximity to MRT affects market prices.
 - Evaluate the influence of convenience stores on real estate prices.
@@ -28,7 +33,10 @@ Elucidate the relationship between real estate prices and certain key factors.
 - Are property prices per unit area influenced by geographical location?
 
 ## Methodology
-Data from the “real estate within range” dataset was sourced through CareerFoundry and cleaned using Excel by removing outliers and imputing missing datapoints. Regression analysis was used to explore correlations between house prices and factors. For location vs. price analysis, “OLS Regression” was applied for a detailed look at the involved factors.
+- Dataset from the “real estate within range” dataset was sourced.
+- Data cleaning was done using Excel; outliers and missing values.
+- Regression analysis was used to explore correlations between house prices and factors.
+- For location vs. price analysis, “OLS Regression” was applied for a detailed look at the involved factors.
 
 ## Python Code Snippets for Data Analysis
 ```python
@@ -99,20 +107,20 @@ print(model.summary())
 
 ## [Results and Interpretations](https://public.tableau.com/app/profile/charles.ikenna.nwankwo/viz/Realestate_17133071929110/HouseAgevsPrice)
 
-- **House Age vs. Price**: Weak inverse correlation; older houses do not necessarily mean lower prices.
-- ![image](https://github.com/OnonaChukwu/Real-estate/assets/155753951/43323dea-63b6-4812-bb35-de6c64dd4a92)
+- **House Age vs. Price** shows a weak inverse correlation; older houses do not necessarily mean lower prices.
+![image](https://github.com/OnonaChukwu/Real-estate/assets/155753951/43323dea-63b6-4812-bb35-de6c64dd4a92)
 
-- **Proximity to MRT vs. Price**: Positive but weak correlation; closer houses to MRT tend to be slightly more expensive.
-- ![image](https://github.com/OnonaChukwu/Real-estate/assets/155753951/bce26305-f280-48f5-8edc-40822c9177c8)
+- **Proximity to MRT vs. Price** check shows a positive but weak correlation; closer houses to MRT tend to be slightly more expensive.
+![image](https://github.com/OnonaChukwu/Real-estate/assets/155753951/bce26305-f280-48f5-8edc-40822c9177c8)
 
-- **Convenience Stores vs. Price**: Positive impact; more stores nearby slightly correlate with higher prices.
-- ![image](https://github.com/OnonaChukwu/Real-estate/assets/155753951/438bd1b5-ae9b-4310-88bc-c162d99b51ac)
+- **Convenience Stores vs. Price** comparison reveals a positive impact; more stores nearby slightly correlate with higher prices.
+![image](https://github.com/OnonaChukwu/Real-estate/assets/155753951/438bd1b5-ae9b-4310-88bc-c162d99b51ac)
 
-- **Geographic Coordinates vs. House Price**: Location, by itself, doesn't tell us much about the price; other factors have more effect.
+- **Geographic Coordinates vs. House Price** shows tha location, by itself, doesn't tell us much about the price; other factors have more effect.
 ![image](https://github.com/OnonaChukwu/Real-estate/assets/155753951/1c6e0a76-6dda-42fd-988b-271415160aaa)
 
 ## Conclusions and Recommendations
-
-### Factors impact prices, but correlations are generally weak, suggesting complex interdependencies. 
-### Recommendations for investors include considering properties near MRT stations despite the weak correlation, as they may offer better long-term value. 
-### Policymakers are encouraged to develop amenities in residential areas to potentially boost property values.
+- Factors impact prices, but correlations are generally weak, suggesting complex interdependencies.
+- Recommendations for investors include considering properties near MRT stations despite the weak correlation;
+  - they may offer better long-term values. 
+- Policymakers are encouraged to develop amenities in residential areas to potentially boost property values.
